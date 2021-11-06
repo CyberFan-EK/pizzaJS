@@ -58,3 +58,6 @@ const logout = () => {
 if (localStorage.getItem("user")) {
     login(JSON.parse(localStorage.getItem('user')))
 }
+
+
+// part 2
